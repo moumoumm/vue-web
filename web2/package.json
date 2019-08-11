@@ -5,18 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --port 3456 --contentBase src --hot --opesn"
+    "dev": "webpack-dev-server --port 3456 --contentBase src --hot --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
+    "babel-plugin-transform-remove-strict-mode": "0.0.2",
     "bootstrap": "^3.3.7",
     "jquery": "^3.4.1",
     "mint-ui": "^2.2.13",
     "moment": "^2.24.0",
     "vue": "^2.6.10",
+    "vue-preview": "^1.1.3",
     "vue-router": "^3.1.1"
   },
   "devDependencies": {

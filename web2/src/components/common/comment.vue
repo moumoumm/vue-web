@@ -66,12 +66,26 @@
 </script>
 
 <style lang="less" scoped>
+    @import "../../less/index.less";
+    h3{
+        font-size: 24rem/@baseFontSize;
+    }
     .co_top{
         background: #ccc;
-        padding: 10px 2px;
+        padding: 10rem/@baseFontSize 2rem/@baseFontSize;
     }
     .co_body p{
         text-indent: 2em;
         color: black;
+    }
+    .co_top {
+        font-size: 17rem/@baseFontSize;
+    }
+    .co_body p{
+        font-size: 17rem/@baseFontSize;
+    }
+    .mint-button{
+        font-size: 18rem/@baseFontSize;
+        height: 41rem/@baseFontSize;
     }
 </style>

@@ -58,20 +58,4 @@
     font-size: 106.66666667px;
   }
 }
-body {
-  background: #fff;
-  touch-action: none;
-}
-img {
-  width: 100%;
-}
-figure {
-  margin: 0.1rem 0.3rem;
-  display: inline-block;
-}
-figure img {
-  border: 0;
-  width: 1.5rem;
-  display: inline-block;
-}
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=index.css.map */

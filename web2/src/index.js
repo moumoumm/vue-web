@@ -8,7 +8,7 @@ Vue.use(MintUI)
 import "./lib/mui/css/mui.css"
 import "./lib/mui/css/icons-extra.css"
 //导入公共样式
-import "./app.css"
+import "./app.less"
 
 //导入路由
 import VueRouter from "vue-router"
@@ -27,6 +27,9 @@ Vue.filter("dataFormat",function (datastr,partern="YYYY-MM-DD hh:mm:ss") {
     return moment(datastr).format(partern)
 })
 
+//导入
+import VuePreview from "vue-preview"
+Vue.use(VuePreview)
 
 const vm=new Vue({
     el:'#app',
